@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="U76-JW-zgI">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="cNg-HK-9zE">
+            <objects>
+                <navigationController id="U76-JW-zgI" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="b6Z-Ou-qOe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="WDU-yg-5Rf" kind="relationship" relationship="rootViewController" id="7yu-fO-HAl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Mx-xo-kIE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="890" y="-237"/>
+        </scene>
+        <!--百度API市场Demo-->
+        <scene sceneID="Sac-zH-rPz">
+            <objects>
+                <tableViewController id="WDU-yg-5Rf" customClass="ListViewController" customModule="BaiduAPIDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="lhp-aT-NZT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="WDU-yg-5Rf" id="LKG-Y8-Usb"/>
+                            <outlet property="delegate" destination="WDU-yg-5Rf" id="qoX-Nv-fYU"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="百度API市场Demo" id="bLc-2u-eVa"/>
+                    <connections>
+                        <segue destination="Wom-Ig-vL1" kind="show" identifier="list2currency" id="yd5-o1-wVG"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qCq-kf-gdw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1241" y="-237"/>
+        </scene>
+        <!--货币转换-->
+        <scene sceneID="1Q9-qU-vNf">
+            <objects>
+                <viewController id="Wom-Ig-vL1" customClass="CurrencyViewController" customModule="BaiduAPIDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tvd-3W-VAT"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z8U-Fo-BET"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7xO-hI-bFl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="货币转换" id="dYl-gU-wc2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8zx-KJ-Q4p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1597" y="-237"/>
+        </scene>
+    </scenes>
+</document>
