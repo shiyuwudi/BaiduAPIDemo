@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2930A7911C7B1B740045DF7E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		29B94C941C7A0025001F1614 /* BaiduAPIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduAPIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B94C971C7A0025001F1614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29B94C991C7A0025001F1614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 				29B94CA31C7A0025001F1614 /* Info.plist */,
 				29B94CAB1C7A0212001F1614 /* NetUtil.swift */,
 				29B94CAF1C7A1E8B001F1614 /* To Do.h */,
+				2930A7911C7B1B740045DF7E /* MyPlayground.playground */,
 			);
 			path = BaiduAPIDemo;
 			sourceTree = "<group>";
@@ -132,6 +134,7 @@
 				TargetAttributes = {
 					29B94C931C7A0025001F1614 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7X9J78X4BV;
 					};
 				};
 			};
@@ -333,6 +336,7 @@
 			baseConfigurationReference = 7BFF260976C6CE98F1368CD9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BaiduAPIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shiyuwudi.BaiduAPIDemo;
@@ -345,6 +349,7 @@
 			baseConfigurationReference = 69BFBFBEFEA5306BC11DD0EA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BaiduAPIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shiyuwudi.BaiduAPIDemo;

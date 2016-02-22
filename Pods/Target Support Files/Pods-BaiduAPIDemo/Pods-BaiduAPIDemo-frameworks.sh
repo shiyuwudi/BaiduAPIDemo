@@ -85,11 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-BaiduAPIDemo/Alamofire.framework"
+  install_framework "Pods-BaiduAPIDemo/DZNEmptyDataSet.framework"
   install_framework "Pods-BaiduAPIDemo/Eureka.framework"
   install_framework "Pods-BaiduAPIDemo/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-BaiduAPIDemo/Alamofire.framework"
+  install_framework "Pods-BaiduAPIDemo/DZNEmptyDataSet.framework"
   install_framework "Pods-BaiduAPIDemo/Eureka.framework"
   install_framework "Pods-BaiduAPIDemo/SwiftyJSON.framework"
 fi

@@ -1,10 +1,12 @@
 PODS:
   - Alamofire (3.2.0)
+  - DZNEmptyDataSet (1.7.3)
   - Eureka (1.3.1)
   - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - Alamofire (~> 3.0)
+  - DZNEmptyDataSet
   - Eureka (~> 1.3)
   - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
 
@@ -19,6 +21,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: 4da478599fccddff361205c8929333d7fe18dceb
+  DZNEmptyDataSet: dd7cca17c1d07dfa78956859b1e70a52505678ef
   Eureka: 10df73e578ed8ec1f30c8fda5b4ffc8739786b74
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
